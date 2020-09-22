@@ -9,7 +9,7 @@
                android:width="10dp"
                android:color="@color/darkBlue_bg" />
 
-           <corners android:radius="20dp" />
+           <corners android:radius="25dp" />
        </shape>
    </item>
 
@@ -19,7 +19,7 @@
             <stroke
                 android:width="5dp"
                 android:color="@color/dodgerBlue" />
-            <corners android:radius="20dp" />
+            <corners android:radius="25dp" />
         </shape>
     </item>
 </layer-list>
