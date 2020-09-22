@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Connecto</string>
+    <string name="log_in">Log In</string>
+    <string name="connecto_definition">Connecto is a Messenger Application allows you to Share and Store Data Online.</string>
+    <string name="join_connecto_community">Join Connecto Community</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="we_won_t_spam_you_we_value_your_privacy">We won\'t spam you. We value your privacy.</string>
+    <string name="or">OR</string>
+    <string name="welcome_again">Welcome Again</string>
+</resources>

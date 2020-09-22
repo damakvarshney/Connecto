@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkBlue_bg</item>
+        <item name="colorPrimaryDark">@color/darkBlue_bg</item>
+        <item name="colorAccent">@color/dodgerBlue</item>
+    </style>
+
+    <style name="connecto_fullScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">@color/darkBlue_bg</item>
+    </style>
+
+</resources>

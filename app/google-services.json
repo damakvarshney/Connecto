@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "537639482022",
+    "firebase_url": "https://connecto-53d23.firebaseio.com",
+    "project_id": "connecto-53d23",
+    "storage_bucket": "connecto-53d23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537639482022:android:02fe796e1d407a2276ba67",
+        "android_client_info": {
+          "package_name": "com.messenger.connecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537639482022-bppanvlfo9qfdnqva1cg8rugmlvqlj16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6-ujn2lSMQh5FtL14eqGZRgyenDp7eLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537639482022-bppanvlfo9qfdnqva1cg8rugmlvqlj16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
