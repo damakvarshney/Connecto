@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_notes"
+        android:icon="@drawable/ic_baseline_event_note_24"
+        android:title="@string/all_notes" />
+
+    <item
+        android:id="@+id/vault_notes"
+        android:icon="@drawable/ic_baseline_lock_24"
+        android:title="@string/vault_notes" />
+
+</menu>

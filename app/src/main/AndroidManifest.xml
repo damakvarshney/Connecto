@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.messenger.connecto">
-    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -9,16 +10,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".screen.HomeActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".screen.LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".screen.RegisterActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".screen.WelcomeActivity"
+            android:name=".screen.alpha_notes.navigation.NotesActivity"
+            android:label="@string/title_activity_notes"/>
+        <activity android:name=".screen.SlideNavigatorActivity" />
+        <activity
+            android:name=".screen.beta_messenger.navigation.MessengerActivity"
+            android:label="@string/title_activity_messenger_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".screen.LoginActivity" />
+        <activity
+            android:name=".screen.RegisterActivity" />
+        <activity
+            android:name=".screen.WelcomeActivity" />
         <activity
             android:name=".screen.SplashActivity"
             android:theme="@style/connecto_fullScreen">

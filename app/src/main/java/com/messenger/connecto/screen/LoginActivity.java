@@ -23,26 +23,22 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 overridePendingTransition(R.anim.right_to_left, R.anim.left_to_right);
-                Log.d("LoginActivity", "ANYTHING");
                 startActivity(intent);
             }
         });
 
 
-
-
-
     }
 
     public void to_sign_up(View view) {
-//        Intent intent = new Intent(this, RegisterActivity.class);
-//        overridePendingTransition(R.anim.right_to_left, R.anim.left_to_right);
-//        Log.d("LoginActivity", "ANYTHING");
-//        startActivity(intent);
+        Intent intent = new Intent(this, RegisterActivity.class);
+        overridePendingTransition(R.anim.right_to_left, R.anim.left_to_right);
+        Log.d("LoginActivity", "ANYTHING");
+        startActivity(intent);
     }
 
     public void to_home(View view) {
-        Intent intent = new Intent(this, HomeActivity.class);
+        Intent intent = new Intent(this,SlideNavigatorActivity.class);
         overridePendingTransition(R.anim.right_to_left, R.anim.left_to_right);
         startActivity(intent);
     }

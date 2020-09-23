@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/all_notes">
+
+    <fragment
+        android:id="@+id/all_notes"
+        android:name="com.messenger.connecto.screen.alpha_notes.tabs.AllNotesFragment"
+        android:label="@string/all_notes"
+        tools:layout="@layout/fragment_all_notes" />
+
+    <fragment
+        android:id="@+id/vault_notes"
+        android:name="com.messenger.connecto.screen.alpha_notes.tabs.VaultNotesFragment"
+        android:label="@string/vault_notes"
+        tools:layout="@layout/fragment_vault_notes" />
+</navigation>

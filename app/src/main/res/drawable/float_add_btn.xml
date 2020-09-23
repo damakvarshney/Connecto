@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:width="50dp" android:height="50dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp"/>
+            <solid android:color="@color/dodgerBlue"/>
+        </shape>
+    </item>
+    <item android:width="40dp" android:height="40dp" android:gravity="center" android:drawable="@drawable/ic_baseline_add_24"
+        />
+
+</layer-list>

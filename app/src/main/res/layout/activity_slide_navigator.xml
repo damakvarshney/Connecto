@@ -4,23 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/darkBlue_bg"
-    android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".screen.HomeActivity">
+
+    tools:context=".screen.SlideNavigatorActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginHorizontal="20dp"
-        android:orientation="horizontal">
+        android:background="@color/darkBlue_bg"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp">
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="30dp"
-            android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:src="@drawable/ic_baseline_notes_24" />
 
@@ -37,7 +37,7 @@
 
 
             <com.ncorti.slidetoact.SlideToActView
-                android:id="@+id/alpha_notes"
+                android:id="@+id/alpha_notes_slider"
                 android:layout_width="0dp"
                 android:layout_height="2dp"
                 android:layout_weight="1"
@@ -58,7 +58,7 @@
             <SearchView
                 android:id="@+id/searchView"
                 android:layout_width="250dp"
-                android:layout_height="45dp"
+                android:layout_height="40dp"
                 android:gravity="center"
                 android:text="@string/app_name"
                 android:textColor="@color/dodgerBlue"
@@ -67,7 +67,7 @@
                 android:visibility="gone" />
 
             <com.ncorti.slidetoact.SlideToActView
-                android:id="@+id/beta_messenger"
+                android:id="@+id/beta_messenger_slider"
                 android:layout_width="0dp"
                 android:layout_height="2dp"
                 android:layout_weight="1"
@@ -91,22 +91,21 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/display_searchView"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:onClick="searchView_icon"
             android:src="@drawable/ic_baseline_search_24" />
 
 
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/hint_white"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="10dp"/>
 
-    
+    <include android:id="@+id/beta_messenger_layout" layout="@layout/activity_messenger" android:visibility="gone"/>
+    <include android:id="@+id/alpha_notes_layout" layout="@layout/activity_notes" android:visibility="visible"/>
+
+
 </LinearLayout>
