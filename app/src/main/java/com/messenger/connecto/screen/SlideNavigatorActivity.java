@@ -57,12 +57,6 @@ public class SlideNavigatorActivity extends AppCompatActivity {
             }
         });
 
-//        display_searchView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//            }
-//        });
 
     }
 

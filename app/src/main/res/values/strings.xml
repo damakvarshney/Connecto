@@ -24,4 +24,24 @@
     <string name="title_notifications">Notifications</string>
     <string name="vault_notes">Vault Notes</string>
     <string name="all_notes">All Notes</string>
+    <string name="create_notes_with_connecto">Create Notes with Connecto</string>
+    <string name="title_activity_single_note">SingleNoteActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="submit_button">Submit Button</string>
+    <string name="submit">Submit</string>
+    <string name="link">Link</string>
+    <string name="connect_o">Connect-O</string>
+    <string name="verify">Verify</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_notes_to_vault">Add Notes to Vault.</string>
 </resources>
