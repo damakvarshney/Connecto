@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="@color/darkBlue_bg"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".screen.alpha_notes.tabs.VaultNotesFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
         android:divider="@android:color/transparent"
         android:dividerHeight="8dp"
-        android:visibility="gone"
         android:layoutAnimation="@anim/layout_animation"
+        android:visibility="gone"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layout_marginBottom="10dp"
-        android:layout_marginRight="10dp"
         tools:listitem="@layout/adapter_for_allnotes" />
 
-
-    <TextView
-        android:id="@+id/start_creating_textView"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:visibility="visible"
-        android:text="@string/add_notes_to_vault"/>
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:src="@drawable/ic_baseline_lock_24"
+
+            />
+
+
+        <TextView
+            android:id="@+id/start_creating_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/add_notes_to_vault"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
 
 </FrameLayout>
 
