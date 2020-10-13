@@ -9,6 +9,8 @@
 ## About Connecto :
 
 - Connecto is a messenger application which is a mixture of two separate application Alpha Note and Beta Messenger.
+- The most unlikely thing which is really unique with this application is SwitchSlider which switchs between different application.
+- And the classic Search Bar where slider turn into SearchBar is miraculous.  
 
 #### Aplha Notes :
 
@@ -38,6 +40,8 @@
 ### Loading screen
 ![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/LoadingScreen.png?raw=true "SplashScreen")
 
+### Switch Slider
+![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/SwitchSlider.png?raw=true "SplashScreen")
 
 ### Alpha Notes
 ![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/AlphaNotes.png?raw=true "SplashScreen")
