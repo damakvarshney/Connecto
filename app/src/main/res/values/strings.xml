@@ -44,4 +44,6 @@
     <string name="title">Title</string>
     <string name="description">Description</string>
     <string name="add_notes_to_vault">Add Notes to Vault.</string>
+    <string name="username">Username</string>
+    <string name="link_your_mobile_with_email_here">Link your Mobile with Email Here.</string>
 </resources>

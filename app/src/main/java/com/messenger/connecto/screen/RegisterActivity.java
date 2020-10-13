@@ -115,6 +115,7 @@ public class RegisterActivity extends AppCompatActivity {
         name.setVisibility(View.VISIBLE);
         sign_up_btn.setVisibility(View.VISIBLE );
         phone_iv.setVisibility(View.VISIBLE);
+        verify_btn.setVisibility(View.GONE);
 
     }
     //verify mobile number to send call back

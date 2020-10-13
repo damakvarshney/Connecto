@@ -154,8 +154,9 @@ public class LinkMobileEmailActivity extends AppCompatActivity {
                             Log.d("newSuccess", "linkWithCredential:success");
                             updateUI();
                         } else {
+                            onPostExecute();
                             Log.w("newFailure", "linkWithCredential:failure", task.getException());
-                            Toast.makeText(LinkMobileEmailActivity.this, "Authentication failed.",
+                            Toast.makeText(LinkMobileEmailActivity.this, "Already a User.",
                                     Toast.LENGTH_SHORT).show();
                         }
                     }

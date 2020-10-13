@@ -69,13 +69,13 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/round_edittext_bg"
         android:ems="10"
-        android:hint="Userame"
+        android:hint="@string/username"
         android:inputType="text"
         android:paddingVertical="10dp"
-        android:paddingLeft="15dp"
-        android:textColor="@color/black"
+        android:paddingStart="15dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/hint_white"
-        android:textSize="18sp" />
+        android:textSize="14sp" />
 
 
     <EditText
@@ -90,10 +90,10 @@
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:paddingVertical="10dp"
-        android:paddingLeft="15dp"
-        android:textColor="@color/black"
+        android:paddingStart="15dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/hint_white"
-        android:textSize="18sp" />
+        android:textSize="14sp" />
 
 
     <EditText
@@ -107,10 +107,10 @@
         android:hint="@string/password"
         android:inputType="textPassword"
         android:paddingVertical="10dp"
-        android:paddingLeft="15dp"
-        android:textColor="@color/black"
+        android:paddingStart="15dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/hint_white"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:visibility="visible" />
 
 
@@ -135,7 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_marginVertical="15dp"
         android:gravity="center"
-        android:text="Link your Mobile with Email Here."
+        android:text="@string/link_your_mobile_with_email_here"
         android:textColor="#60FFFFFF"
         android:textSize="12sp" />
 
