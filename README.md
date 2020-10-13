@@ -23,23 +23,29 @@
 
 ## ScreenShots :
 
-##### Splash Screen
+### Splash Screen
 ![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/SplashScreen.png?raw=true "SplashScreen")
 
-##### Alpha Notes
+
+### Register Screen  
+![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/RegisterScreen.png?raw=true "SplashScreen")
+
+
+### Login Screen
+![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/LoginScreen.png?raw=true "SplashScreen")
+
+
+### Loading screen
+![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/LoadingScreen.png?raw=true "SplashScreen")
+
+
+### Alpha Notes
 ![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/AlphaNotes.png?raw=true "SplashScreen")
 
-##### Beta Messenger
+
+### Beta Messenger
 ![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/BetaMessenger.png?raw=true "SplashScreen")
 
-##### Loading screen
-![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/Loading.png?raw=true "SplashScreen")
 
-##### Login Screen
-![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/AlphaNotes.png?raw=true "SplashScreen")
-
-##### Register Screen
-![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/AlphaNotes.png?raw=true "SplashScreen")
-
-##### Type Here .... 
+### Type Here .... 
 ![Alt text](https://github.com/damakvarshney/Connecto/blob/master/ScreenShots/type_here.png?raw=true "SplashScreen")
