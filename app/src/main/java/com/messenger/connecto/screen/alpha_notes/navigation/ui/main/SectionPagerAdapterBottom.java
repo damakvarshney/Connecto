@@ -12,9 +12,6 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import com.messenger.connecto.R;
 import com.messenger.connecto.screen.alpha_notes.tabs.AllNotesFragment;
 import com.messenger.connecto.screen.alpha_notes.tabs.VaultNotesFragment;
-import com.messenger.connecto.screen.beta_messenger.tabs.CallFragment;
-import com.messenger.connecto.screen.beta_messenger.tabs.ChatFragment;
-
 import java.util.Locale;
 
 public class SectionPagerAdapterBottom extends FragmentPagerAdapter {
